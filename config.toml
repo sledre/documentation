@@ -1,4 +1,22 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'learn'
+baseURL = "https://sled.re/"
+languageCode = "en-us"
+title = "SledRE Documentation"
+theme = "learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+themeVariant = "blue"
+editURL = "https://github.com/sledre/documentation/content/"
+showVisitedLinks = true
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github SledRE Organisation"
+url = "https://github.com/sledre/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
