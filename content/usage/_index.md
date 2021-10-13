@@ -10,4 +10,4 @@ pre = "<b>2. </b>"
 
 # SledRE Usage
 
-Lorem Ipsum.
+Quickly learn how SledRE will simplify your reverse engineering process.

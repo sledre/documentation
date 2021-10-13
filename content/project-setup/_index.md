@@ -10,4 +10,4 @@ pre = "<b>1. </b>"
 
 # SledRE project installation
 
-Lorem Ipsum.
+Learn how to install the latest version of SledRE!
