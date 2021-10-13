@@ -10,4 +10,4 @@ pre = "<b>3. </b>"
 
 # SledRE development
 
-Lorem Ipsum.
+Let's look under the hood of SledRE!
