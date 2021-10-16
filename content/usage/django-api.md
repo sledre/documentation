@@ -5,3 +5,5 @@ draft: false
 weight: 15
 ---
 
+{{< oai-spec >}}
+
