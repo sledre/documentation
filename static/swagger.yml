@@ -20,7 +20,7 @@ paths:
                   $ref: '#/components/schemas/Malware'
           description: ''
       tags:
-      - api
+      - malwares
     post:
       operationId: createMalware
       description: 'ViewSet used to render Malware objects to user.
@@ -46,7 +46,7 @@ paths:
                 $ref: '#/components/schemas/Malware'
           description: ''
       tags:
-      - api
+      - malwares
   /api/malwares/{sha256}/:
     get:
       operationId: retrieveMalware
@@ -68,7 +68,7 @@ paths:
                 $ref: '#/components/schemas/Malware'
           description: ''
       tags:
-      - api
+      - malwares
     delete:
       operationId: destroyMalware
       description: 'ViewSet used to render Malware objects to user.
@@ -85,7 +85,7 @@ paths:
         '204':
           description: ''
       tags:
-      - api
+      - malwares
   /api/malwares/{sha256}/download/:
     get:
       operationId: downloadMalware
@@ -105,7 +105,7 @@ paths:
                 $ref: '#/components/schemas/Malware'
           description: ''
       tags:
-      - api
+      - malwares
   /api/workers/:
     get:
       operationId: listWorkers
@@ -123,7 +123,7 @@ paths:
                   $ref: '#/components/schemas/Worker'
           description: ''
       tags:
-      - api
+      - workers
     post:
       operationId: createWorker
       description: 'ViewSet used to render Worker objects to user.
@@ -149,7 +149,7 @@ paths:
                 $ref: '#/components/schemas/Worker'
           description: ''
       tags:
-      - api
+      - workers
   /api/workers/{id}/:
     get:
       operationId: retrieveWorker
@@ -171,7 +171,7 @@ paths:
                 $ref: '#/components/schemas/Worker'
           description: ''
       tags:
-      - api
+      - workers
     delete:
       operationId: destroyWorker
       description: 'ViewSet used to render Worker objects to user.
@@ -188,7 +188,7 @@ paths:
         '204':
           description: ''
       tags:
-      - api
+      - workers
   /api/workers/{id}/get_task/:
     get:
       operationId: getTaskWorker
@@ -212,7 +212,7 @@ paths:
                 $ref: '#/components/schemas/Worker'
           description: ''
       tags:
-      - api
+      - workers
   /api/jobs/:
     get:
       operationId: listJobs
@@ -230,7 +230,7 @@ paths:
                   $ref: '#/components/schemas/Job'
           description: ''
       tags:
-      - api
+      - jobs
     post:
       operationId: createJob
       description: 'ViewSet used to render Job objects to user.
@@ -256,7 +256,7 @@ paths:
                 $ref: '#/components/schemas/Job'
           description: ''
       tags:
-      - api
+      - jobs
   /api/jobs/{id}/:
     get:
       operationId: retrieveJob
@@ -278,7 +278,7 @@ paths:
                 $ref: '#/components/schemas/Job'
           description: ''
       tags:
-      - api
+      - jobs
     delete:
       operationId: destroyJob
       description: 'ViewSet used to render Job objects to user.
@@ -295,7 +295,7 @@ paths:
         '204':
           description: ''
       tags:
-      - api
+      - jobs
   /api/jobs/{id}/download_results/:
     get:
       operationId: downloadResultsJob
@@ -315,7 +315,7 @@ paths:
                 $ref: '#/components/schemas/Job'
           description: ''
       tags:
-      - api
+      - jobs
   /api/datasets/:
     get:
       operationId: listDatasets
@@ -333,7 +333,7 @@ paths:
                   $ref: '#/components/schemas/Dataset'
           description: ''
       tags:
-      - api
+      - datasets
     post:
       operationId: createDataset
       description: 'ViewSet used to render Dataset objects to user.
@@ -359,7 +359,7 @@ paths:
                 $ref: '#/components/schemas/Dataset'
           description: ''
       tags:
-      - api
+      - datasets
   /api/datasets/{id}/:
     get:
       operationId: retrieveDataset
@@ -381,7 +381,7 @@ paths:
                 $ref: '#/components/schemas/Dataset'
           description: ''
       tags:
-      - api
+      - datasets
     delete:
       operationId: destroyDataset
       description: 'ViewSet used to render Dataset objects to user.
@@ -398,7 +398,7 @@ paths:
         '204':
           description: ''
       tags:
-      - api
+      - datasets
   /api/datasets/{id}/download/:
     get:
       operationId: downloadDataset
@@ -418,7 +418,7 @@ paths:
                 $ref: '#/components/schemas/Dataset'
           description: ''
       tags:
-      - api
+      - datasets
   /api/stats/:
     get:
       operationId: listStats
@@ -433,7 +433,7 @@ paths:
                 items: {}
           description: ''
       tags:
-      - api
+      - stats
   /api/rules/:
     get:
       operationId: listRuleForms
@@ -448,7 +448,7 @@ paths:
                 items: {}
           description: ''
       tags:
-      - api
+      - rules
     post:
       operationId: createRuleForm
       description: ''
@@ -468,7 +468,7 @@ paths:
               schema: {}
           description: ''
       tags:
-      - api
+      - rules
     delete:
       operationId: destroyRuleForm
       description: ''
@@ -477,7 +477,7 @@ paths:
         '204':
           description: ''
       tags:
-      - api
+      - rules
   /api/workers/{id}/submit_results/:
     post:
       operationId: submitResultsWorker
@@ -512,7 +512,7 @@ paths:
                 $ref: '#/components/schemas/Worker'
           description: ''
       tags:
-      - api
+      - workers
 components:
   schemas:
     Malware:

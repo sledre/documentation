@@ -6,6 +6,9 @@ weight: 10
 ---
 
 ### Prerequisites
+
+Before beginning the installation, please make sure to [install the required dependencies](/project-setup/requirements).  
+
 The first step is to clone the repository using **git** in recursive mode:  
 `git clone --recursive https://github.com/sledre/sledre.git`
 
