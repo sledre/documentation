@@ -27,6 +27,7 @@ This step is now fully automated. Just run the following command:
 `python3 setup.py -w <number of workers>`  
 The number of workers represent the number of QEMU Windows 7 VMs (1 CPU, 1GB of memory) running in parallel.  
 An higher number will make simultaneous analysis faster but will also increase the resources consumption.  
+If you wish to allow the Windows VMs internet access (and also LAN access if you don't setup any firewall rules), you can use the `--disable-network-isolation` option.  
 
 This script will take some time to finish since it is doing the following steps for you:
 * Cleaning the directories ;
