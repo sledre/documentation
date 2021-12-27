@@ -12,7 +12,7 @@ editURL = "https://github.com/sledre/documentation/content/"
 showVisitedLinks = true
 
 [[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Github SledRE Organisation"
+name = "<i class='fab fa-github'></i> Github SledRE Organization"
 url = "https://github.com/sledre/"
 weight = 10
 
