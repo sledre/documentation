@@ -30,7 +30,7 @@ Then, a new window will be opened. Make sure to enable the extension by clicking
 
 You should now see the SledRE extension UI.
 
-![SledRE plugin UI](/images/ghidra/sledre-ui.png?classes=border,shadow&height=200px)
+![SledRE plugin UI](/images/ghidra/sledre-ui.png?classes=border,shadow&height=400px)
 
 {{% notice note %}}
 If it's not the case, in *Ghidra* click on the *Window* menu and then on *Sledre* to render the windows.
@@ -39,4 +39,30 @@ If it's not the case, in *Ghidra* click on the *Window* menu and then on *Sledre
 
 ### Usage
 
-TODO
+#### Configure SledRE
+The **Ghidra Extension** needs to be linked to an active SledRE API.  
+To do that, click on the *Configure SledRE URL* button. A popup window will appear where you can input **SledRE** URL.
+
+![SledRE plugin configuration](/images/ghidra/sledre-url-input.png?classes=border,shadow&height=150px)
+
+If the **Ghidra Extension**  is connected to **SledRE**, the status will be updated.
+
+![SledRE plugin status](/images/ghidra/sledre-success-conn.png?classes=border,shadow&height=350px)
+
+#### Run analysis
+
+ now run a job on the sample that is opened in **Ghidra**.  
+The sample must be in *Windows PE format*.  
+You can click on the *Start SledRE analysis* button. A popup will appear during the analysis but you can continue navigating on Ghidra.
+
+![SledRE plugin analysis popup](/images/ghidra/sledre-analysis-popup.png?classes=border,shadow&height=150px)
+
+When the analysis if finished, the **SledRE** status should go from *Runnning* to *Connected* again. If SledRE genereated traces, they will be present inside the table.
+
+![SledRE plugin resutls](/images/ghidra/sledre-results.png?classes=border,shadow&height=400px)
+
+#### Using the results
+You can go to the instruction that called the function referenced inside the table by double clicking on the table row.  
+You can also click on the button *Add traces comments* to append comments directly in the listing and decompiler views.
+
+![SledRE plugin comments](/images/ghidra/ghidra-comments.png?classes=border,shadow&height=150px)
