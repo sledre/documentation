@@ -56,3 +56,7 @@ The dataset is organized in a tree which subdirectories are defined by the sampl
 
 ![Dataset Format](/images/frontend/dataset-format.png?classes=border,shadow&height=700)
 
+#### Rules management
+
+The page **Rules** is used to manage Detours job rules. These rules allow to tag a sample with *Crypto* if it is using cryptographic functions.  
+**SledRE** comes with default rules but allow you to edit them or add yours.
