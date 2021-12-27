@@ -1,5 +1,5 @@
 ---
-title: "Development Installation"
+title: "Environment Setup"
 date: 2021-09-12T12:46:01+02:00
 draft: false
 weight: 10
