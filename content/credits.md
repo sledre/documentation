@@ -5,7 +5,12 @@ draft: false
 weight: 5
 ---
 
+### Maintainers
+* [Kn0wl3dge](https://github.com/Kn0wl3dge)
+
 ### Contributors
+SledRE is the continuation of a school project named [AutoDetours](https://github.com/Kn0wl3dge/AutoDetours) that have been made in march 2021. The following persons were part of this school project that is now archived:
+* [0pendev](https://github.com/0pendev)
 * [Alexandre Fresnais](https://github.com/alexandrefresnais)
 * [Deacllock](https://github.com/Deacllock)
 * [Ewaël](https://github.com/Ewael)
