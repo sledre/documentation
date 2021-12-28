@@ -25,12 +25,12 @@ When filing an issue, make sure to answer these five questions:
 General questions should go to the *Discussions* tab of the [Github project](https://github.com/sledre/sledre/discussions).
 
 #### How to suggest a feature or enhancement?
-If you're wishing for a new feature or an enhancement that hasn't already been disscused for the project, please feel free to open a new issue about it.  
+If you're wishing for a new feature or an enhancement that hasn't already been discussed for the project, please feel free to open a new issue about it.  
 Your issue must at least describe the feature you would like to see, why you need it, and how it should work.
 
 #### How to make a Pull Request?
 Pull requests are the best way to propose technical changes to the project. We actively welcome your pull requests:
-1. If you're planning on making a huge changement, please begin by opening an issue to discuss about it ;
+1. If you're planning on making a huge modification, please begin by opening an issue to discuss about it ;
 2. Fork the repo and create your branch from `main` ;
 3. Do not forget to update the documentation if you feel that it's needed ;
 4. Make sure your code lints ;

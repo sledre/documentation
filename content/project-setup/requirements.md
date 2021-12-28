@@ -16,7 +16,7 @@ In order to work, **SledRE** requires the following components:
 ### Python3 & pip3
 Python3 and pip3 are needed to run the installation script.  
 {{% notice info %}}
-It is also recommend to use a virtualenv to avoid any conflict.
+It is also recommended to use a virtualenv to avoid any conflict.
 {{% /notice %}}
 
 ### Docker
@@ -36,7 +36,7 @@ Or if you are not using virtualenv:
 
 
 ### KVM
-KVM is used to drastically improve QEMU performances so the Windows 7 workers are running faster and smoother.  
+KVM is used to drastically improve QEMU performances, so the Windows 7 workers are running faster and smoother.  
 So you'll need a recent CPU (with hardware virtualization such as Intel VT-x or AMD-V) and a kernel version higher than 2.6.20.
 
 ### QEMU binutils

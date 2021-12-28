@@ -33,9 +33,9 @@ This script will take some time to finish since it is doing the following steps 
 * Cleaning the directories ;
 * Downloading, uncompressing and converting a Windows 7 VM from Microsoft repository ;
 * Creating a QEMU container able to run the Windows VM ;
-* Configuring the VM and installing needed files dependacies through SSH ;
-* Rebooting the VM since it's  needed by some compoenents (.Net Framework for example) ;
-* Making an external snapshot of the VM with the SledRE Agent runnning ;
+* Configuring the VM and installing needed files dependencies through SSH ;
+* Rebooting the VM since it's  needed by some components (.Net Framework for example) ;
+* Making an external snapshot of the VM with the SledRE Agent running ;
 * Creating a *.env* file.
 
 ### Running

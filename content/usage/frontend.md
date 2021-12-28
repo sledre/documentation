@@ -18,13 +18,13 @@ The format can be either *Windows PE* or *DLL*. In the case of a DLL, the entryp
 
 A specific label can also be specified and associated to the sample.
 
-Then, clicking on the **Upload** button will submit the samples into **SledRE**. At this point, it is possile to request jobs associated to the submitted samples.
+Then, clicking on the **Upload** button will submit the samples into **SledRE**. At this point, it is possible to request jobs associated to the submitted samples.
 
 ![Malware submission jobs](/images/frontend/add-malware3.png?classes=border,shadow&height=400px)
 
-At the moment, two jobs are availables:
+At the moment, two jobs are available:
 - [PESieve](https://github.com/hasherezade/pe-sieve): this job goal is to unpack a Windows PE malware using PESieve.
-- [Detours](https://github.com/microsoft/Detours): this job goal is to hook and trace syscalls of Windows PE malware (more than a thousands common syscalls). Theses traces can be used to create artificial intelligence models. But they can also be directly imported to Ghidra to help reverse engineers.  
+- [Detours](https://github.com/microsoft/Detours): this job goal is to hook and trace syscalls of Windows PE malware (more than a thousand common syscalls). Theses traces can be used to create artificial intelligence models. But they can also be directly imported to Ghidra to help reverse engineers.  
 
 You can also specify the analysis time which is 30 seconds by default.  
 
@@ -50,7 +50,7 @@ The page **Workers** is used to display information regarding the QEMU workers.
 #### Datasets
 
 It is possible to generate datasets which is a zip file containing the results of all jobs that have been run.  
-The dataset is organized in a tree which subdirectories are defined by the samples sha256 hashs with a depth of 5 bytes.
+The dataset is organized in a tree which subdirectories are defined by the samples sha256 hashes with a depth of 5 bytes.
 
 ![Dataset Generation](/images/frontend/dataset-gen.png?classes=border,shadow&height=200)
 

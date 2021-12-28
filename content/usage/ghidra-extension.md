@@ -53,11 +53,11 @@ If the **Ghidra Extension**  is connected to **SledRE**, the status will be upda
 
  now run a job on the sample that is opened in **Ghidra**.  
 The sample must be in *Windows PE format*.  
-You can click on the *Start SledRE analysis* button. A popup will appear during the analysis but you can continue navigating on Ghidra.
+You can click on the *Start SledRE analysis* button. A popup will appear during the analysis, but you can continue navigating on Ghidra.
 
 ![SledRE plugin analysis popup](/images/ghidra/sledre-analysis-popup.png?classes=border,shadow&height=150px)
 
-When the analysis if finished, the **SledRE** status should go from *Runnning* to *Connected* again. If SledRE genereated traces, they will be present inside the table.
+When the analysis if finished, the **SledRE** status should go from *Running* to *Connected* again. If SledRE generated traces, they will be present inside the table.
 
 ![SledRE plugin resutls](/images/ghidra/sledre-results.png?classes=border,shadow&height=400px)
 

@@ -79,7 +79,7 @@ cp agent/plugins/unpacking/mal_unpack/build/Release/mal_unpack.exe bin/
 
 Just download the latest release and extract the `bin/` directory from the zip file.
 {{% notice note %}}
-You can also download specific binaries from GithHub actions artifacts.
+You can also download specific binaries from Github actions artifacts.
 {{% /notice %}}
 
 ### Installing the project in development mode
@@ -93,9 +93,9 @@ This script will take some time to finish since it is doing the following steps 
 * Cleaning the directories ;
 * Downloading, uncompressing and converting a Windows 7 VM from Microsoft repository ;
 * Creating a QEMU container able to run the Windows VM ;
-* Configuring the VM and installing needed files dependacies through SSH ;
-* Rebooting the VM since it's  needed by some compoenents (.Net Framework for example) ;
-* Making an external snapshot of the VM with the SledRE Agent runnning ;
+* Configuring the VM and installing needed files dependencies through SSH ;
+* Rebooting the VM since it's  needed by some components (.Net Framework for example) ;
+* Making an external snapshot of the VM with the SledRE Agent running ;
 * Creating a *.env* file.
 
 ### Running
