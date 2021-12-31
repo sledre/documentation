@@ -45,6 +45,7 @@ The first run will take longer since it is downloading all the images.
 
 
 ### Known issues
+#### Restart installation
 Sometimes if the installation doesn't work on the first time and you try to restart it, you can encounter the following error:
 ```
 [2021-12-29 12:26:44,708] [+] http://localhost:None "POST /v1.41/containers/create?name=sledre_qemu_gen HTTP/1.1" 409 242
@@ -82,3 +83,7 @@ docker.errors.APIError: 409 Client Error for http+docker://localhost/v1.41/conta
 ```
 
 It means that the container used for the installation has not been stopped. You must stop it manualy (`docker stop sledre_qemu_gen`) before starting the installation again.
+
+#### Firewalld
+Firewalld seems to be blocking communications between containers of a same docker network by default.  
+You should check out the [Docker Documentation](https://docs.docker.com/network/iptables/#integration-with-firewalld). At the moment, the simple fix is to disable firewalld and restart Docker.
